@@ -789,28 +789,28 @@
             </build>
         </profile>
     </profiles>
-<!--    <distributionManagement>-->
-<!--        <snapshotRepository>-->
-<!--            <id>nexus-snapshots</id>-->
-<!--            <name>Nexus Snapshot</name>-->
-<!--            <url>http://60.205.218.7:8081/repository/maven-snapshots/</url>-->
-<!--        </snapshotRepository>-->
-<!--        <repository>-->
-<!--            <id>nexus-releases</id>-->
-<!--            <name>Nexus Release</name>-->
-<!--            <url>http://60.205.218.7:8081/repository/maven-releases/</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
     <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://mvn.133ec.com:8081/nexus/content/repositories/releases</url>
-        </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://mvn.133ec.com:8081/nexus/content/repositories/snapshots</url>
+            <name>Nexus Snapshot</name>
+            <url>http://60.205.218.7:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Nexus Release</name>
+            <url>http://60.205.218.7:8081/repository/maven-releases/</url>
+        </repository>
     </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>nexus-releases</id>-->
+<!--            <name>Nexus Release Repository</name>-->
+<!--            <url>http://mvn.133ec.com:8081/nexus/content/repositories/releases</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>nexus-snapshots</id>-->
+<!--            <name>Nexus Snapshot Repository</name>-->
+<!--            <url>http://mvn.133ec.com:8081/nexus/content/repositories/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 </project>
